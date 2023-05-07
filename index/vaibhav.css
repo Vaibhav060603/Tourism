@@ -1,0 +1,140 @@
+/*comments are given like cpp*/
+
+
+.classcolor{
+
+    color:rgb(70, 52, 52);   /*this is class selector*/
+    font-size: xx-large;       /* 1 pixel=1/96 inch*/
+    background-color: aquamarine;
+    height: 50px;
+}
+
+
+/*font properties , can use google fonts*/
+#idcolor
+{
+    font-weight: 900;
+    font-size: 100px;
+    color: burlywood;     /*this is id selector*/
+    font-style: oblique;
+    background-color: aqua;
+    height: 200px;
+    
+}
+
+/* to make a word from sentence have different propertie use span */
+.spanprop
+{
+    
+    font-size: xx-large ;
+    font-style : oblique;
+    font-variant: initial;
+    font-stretch: condensed;
+    color: #4E271F;       /*hex colors can also be used instead of rgb*/
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+/*about borders*/
+/*border style is compulsary */
+#borderprop
+{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-style: italic;
+}  
+
+/*about background*/
+#imagepos
+{
+    height: 300px;
+    width: 600px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    border-style: solid;
+    background-position-x: center;
+    background-size: 600px;
+
+}
+
+#container
+{
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(10 244 30);
+    background-color: aquamarine;
+    
+}
+
+.commprop
+{
+    
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blueviolet;
+    margin: 40px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 70px;
+    background-color: #e490a0;
+    text-align: center;
+    
+    
+    
+}
+
+#box1
+{
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+/* this can be used to set same properties to all.
+
+*
+{
+
+}
+
+*/
+
+#id1
+{
+    border-style: solid;
+    border-color: blue;    
+    border-width: 4px;
+    border-radius: 30px;
+    padding: 100px;
+    padding-top: 20px;
+    margin: 100px;   
+}
+
+#id4
+{
+    border-style: solid;
+    margin-top: 100px;
+
+}
+
+#id5
+{
+    
+    border-style: solid;
+}
+
+a
+{
+    text-decoration: none; /* to remove blue line from below of liinks*/
+}
+
+/* to remove border when we click on search on website */
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+/*for changes in link use 'a:link,a:hover,a:active,a:visited'*/
